@@ -11,14 +11,16 @@ package vistas;
  */
 public class Index extends javax.swing.JFrame {
 
-    /**
-     * Creates new form index
-     */
+    String jhonatan = "prueba";
+    
     public Index() {
         initComponents();
         this.setLocationRelativeTo(null);
     }
 
+    public void mostrarJhonatan(){
+        System.out.println(jhonatan);
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
